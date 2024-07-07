@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BibliotekaMobileApp.Views.MainPage"
+             Title="Strona Główna">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="BackgroundColor" Value="#007acc" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="CornerRadius" Value="10" />
+                <Setter Property="HeightRequest" Value="50" />
+                <Setter Property="Margin" Value="0,10,0,0" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="15" VerticalOptions="CenterAndExpand">
+            <Button Text="Autorzy" Clicked="AutorzyButton_Clicked" Style="{StaticResource ButtonStyle}" />
+            <Button Text="Kategorie" Clicked="KategorieButton_Clicked" Style="{StaticResource ButtonStyle}" />
+            <Button Text="Członkowie" Clicked="CzlonkowieButton_Clicked" Style="{StaticResource ButtonStyle}" />
+            <Button Text="Książki" Clicked="KsiazkiButton_Clicked" Style="{StaticResource ButtonStyle}" />
+            <Button Text="Oddziały" Clicked="OddzialyButton_Clicked" Style="{StaticResource ButtonStyle}" />
+            <Button Text="Pracownicy" Clicked="PracownicyButton_Clicked" Style="{StaticResource ButtonStyle}" />
+            <Button Text="Wydawcy" Clicked="WydawcyButton_Clicked" Style="{StaticResource ButtonStyle}" />
+            <Button Text="Wypożyczenia" Clicked="WypozyczeniaButton_Clicked" Style="{StaticResource ButtonStyle}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

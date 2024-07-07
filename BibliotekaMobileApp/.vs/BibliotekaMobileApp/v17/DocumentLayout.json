@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sebas\\Desktop\\BibliotekaMobileApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF993B2-5206-4241-8B9D-EA86B1637C1B}|BibliotekaMobileApp\\BibliotekaMobileApp\\BibliotekaMobileApp.csproj|c:\\users\\sebas\\desktop\\bibliotekamobileapp\\bibliotekamobileapp\\bibliotekamobileapp\\views\\wydawcypage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{6FF993B2-5206-4241-8B9D-EA86B1637C1B}|BibliotekaMobileApp\\BibliotekaMobileApp\\BibliotekaMobileApp.csproj|solutionrelative:bibliotekamobileapp\\bibliotekamobileapp\\views\\wydawcypage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WydawcyPage.xaml",
+              "DocumentMoniker": "C:\\Users\\sebas\\Desktop\\BibliotekaMobileApp\\BibliotekaMobileApp\\BibliotekaMobileApp\\Views\\WydawcyPage.xaml",
+              "RelativeDocumentMoniker": "BibliotekaMobileApp\\BibliotekaMobileApp\\Views\\WydawcyPage.xaml",
+              "ToolTip": "C:\\Users\\sebas\\Desktop\\BibliotekaMobileApp\\BibliotekaMobileApp\\BibliotekaMobileApp\\Views\\WydawcyPage.xaml",
+              "RelativeToolTip": "BibliotekaMobileApp\\BibliotekaMobileApp\\Views\\WydawcyPage.xaml",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-07T17:36:02.411Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

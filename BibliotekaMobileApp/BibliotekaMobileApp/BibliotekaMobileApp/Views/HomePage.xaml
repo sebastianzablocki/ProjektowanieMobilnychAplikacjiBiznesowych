@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BibliotekaMobileApp.Views.HomePage"
+             Title="Strona Główna">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="BackgroundColor" Value="#007acc" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="CornerRadius" Value="10" />
+                <Setter Property="Margin" Value="0,10,0,0" />
+                <Setter Property="HeightRequest" Value="50" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="15" VerticalOptions="CenterAndExpand">
+            <Button Text="Autorzy" 
+                    Clicked="OnAutorzyClicked" 
+                    Style="{StaticResource ButtonStyle}" />
+            <Button Text="Członkowie" 
+                    Clicked="OnCzlonkowieClicked" 
+                    Style="{StaticResource ButtonStyle}" />
+            <Button Text="Kategorie" 
+                    Clicked="OnKategorieClicked" 
+                    Style="{StaticResource ButtonStyle}" />
+            <Button Text="Książki" 
+                    Clicked="OnKsiazkiClicked" 
+                    Style="{StaticResource ButtonStyle}" />
+            <Button Text="Oddziały" 
+                    Clicked="OnOddzialyClicked" 
+                    Style="{StaticResource ButtonStyle}" />
+            <Button Text="Pracownicy" 
+                    Clicked="OnPracownicyClicked" 
+                    Style="{StaticResource ButtonStyle}" />
+            <Button Text="Wydawcy" 
+                    Clicked="OnWydawcyClicked" 
+                    Style="{StaticResource ButtonStyle}" />
+            <Button Text="Wypożyczenia" 
+                    Clicked="OnWypozyczeniaClicked" 
+                    Style="{StaticResource ButtonStyle}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
